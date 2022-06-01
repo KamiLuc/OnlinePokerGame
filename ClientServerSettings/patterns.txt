@@ -1,0 +1,13 @@
+Client:
+
+Playername
+Server ip
+Server port
+
+Server:
+
+Server port
+Number of players
+Number of tokens
+Small blind value
+Big blind value
