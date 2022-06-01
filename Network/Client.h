@@ -53,5 +53,6 @@ public:
 	bool isError(void) const { return errorOccured.load(); }
 	bool isConnectionLost(void) const { return connectionLost.load(); }
 	bool pollPacket(sf::Packet& packet);
+	void terminateThread(void) { thGetPacket.terminate(); runClientThread.terminate(); }
 	~Client();
 };

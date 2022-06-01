@@ -44,6 +44,7 @@ public:
 	void startGame(void);
 	bool getGameOn(void) const { return gameOn.load(); }
 	virtual void draw(sf::RenderTarget& target, sf::RenderStates states = sf::RenderStates::Default) const;
+	void terminateThread(void) { startGameThread.terminate(); }
 private:
 	void start(void);
 	void prepareCards(void);
@@ -84,7 +85,7 @@ private:
 	void check(void);
 	void bet(int tokensConnectedWithPlay);
 	//---------------------------------------------------------------------------------Plays-----------------------------------------------------------------------------------
-
+	
 
 };
 

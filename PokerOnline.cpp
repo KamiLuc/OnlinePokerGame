@@ -78,7 +78,12 @@ int main()
            
             ServerPokerWindow serverPokerWindow(windowPointer, sf::Color::Black, serverPoker);
             serverPokerWindow.startDrawing();
+
+            serverPoker.terminateThread();
         }
+
+        server.terminateThread();
+        
     }
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     else if (clientServerChooseMenu.getMarkedOption() == "Client")
@@ -148,11 +153,16 @@ int main()
                 gameEndTextOptions);
 
             gameEndWindow.startDrawing();
+
+           
         }
+        client.terminateThread();
     }
 
     windowPointer->close();
     windowPointer = nullptr;
+
+    
 
     return 0;
 

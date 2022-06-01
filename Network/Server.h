@@ -53,6 +53,7 @@ public:
 	std::vector<std::string> getPlayersNames(void) const;
 	void run(void);
 	virtual void draw(sf::RenderTarget& target, sf::RenderStates states = sf::RenderStates::Default) const;
+	void terminateThread(void) { serverRunThread.terminate(); }
 	~Server();
 };
 

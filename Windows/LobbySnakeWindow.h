@@ -26,4 +26,5 @@ public:
 	LobbySnakeWindow(std::shared_ptr<sf::RenderWindow> window, sf::Color backgroundColor,
 		Client& client, ClientSnake& clientSnake); 
 	void startDrawing();
+	void terminateThread(void) { snakeUpdateThread.terminate(); }
 };

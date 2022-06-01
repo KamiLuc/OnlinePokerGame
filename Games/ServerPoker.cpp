@@ -631,6 +631,8 @@ const ServerPokerPlayer* ServerPoker::findGameWinner(void)
 			return winner;
 		}
 	}
+
+	return &players[0];
 }
 
 void ServerPoker::findNewEndOfQueuePlayer(void)
