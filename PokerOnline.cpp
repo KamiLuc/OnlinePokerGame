@@ -85,7 +85,7 @@ int main()
     {
         TextOptions clientTextOptions(290.f, 300.f, font, 50, sf::Color::White);
         TextOptions lobbyTextOptions(40.f, 20.f, font, 30, sf::Color::White);
-        Client client(sf::IpAddress::getLocalAddress(),
+        Client client(clientServerSettingsLoader.ip,
             clientServerSettingsLoader.port,
             clientServerSettingsLoader.playerName,
             clientTextOptions,
