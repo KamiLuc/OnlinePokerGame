@@ -33,55 +33,40 @@
     <Filter Include="Network\Cpp">
       <UniqueIdentifier>{10ef7757-832f-403f-a7b1-bdb9cb320dc5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Games\Includes">
+      <UniqueIdentifier>{c714ba8e-5466-402d-a4be-02809218beb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Cpp">
+      <UniqueIdentifier>{a7a33fa0-0d48-419e-b4f0-3d8b02a04360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cards\Includes">
+      <UniqueIdentifier>{825073d7-371a-4163-9999-ca669bd8e31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cards\Cpp">
+      <UniqueIdentifier>{8d7bbbb8-b0d8-4003-a406-26397bb3c8ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OtherComponents\Includes">
+      <UniqueIdentifier>{79ef929a-fd09-41e1-8858-c9e8c58bdf72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OtherComponents\Cpp">
+      <UniqueIdentifier>{8462fbf0-f844-48f1-9f05-bf53ca2ac5a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\Includes">
+      <UniqueIdentifier>{b2bd92ea-39cf-4275-82f8-abd80c1b27bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\Cpp">
+      <UniqueIdentifier>{390fef8b-a729-4970-b0d2-071b950431dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PokerOnline.cpp">
       <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="Cards\CardWithSprite.cpp">
-      <Filter>Cards</Filter>
-    </ClCompile>
-    <ClCompile Include="Cards\ClientCard.cpp">
-      <Filter>Cards</Filter>
-    </ClCompile>
-    <ClCompile Include="Games\GameInfo.cpp">
-      <Filter>Games</Filter>
-    </ClCompile>
-    <ClCompile Include="Games\RoundEndInfo.cpp">
-      <Filter>Games</Filter>
-    </ClCompile>
-    <ClCompile Include="Games\ScoreCalculator.cpp">
-      <Filter>Games</Filter>
-    </ClCompile>
-    <ClCompile Include="Games\ServerPoker.cpp">
-      <Filter>Games</Filter>
-    </ClCompile>
-    <ClCompile Include="Games\ServerPokerPlayer.cpp">
-      <Filter>Games</Filter>
-    </ClCompile>
-    <ClCompile Include="OtherComponents\SwitchingMenu.cpp">
-      <Filter>OtherComponents</Filter>
-    </ClCompile>
-    <ClCompile Include="OtherComponents\TextOptions.cpp">
-      <Filter>OtherComponents</Filter>
     </ClCompile>
     <ClCompile Include="Settings\CardTexturesAndFontsContainer.cpp">
       <Filter>Settings</Filter>
     </ClCompile>
     <ClCompile Include="Settings\ClientServerSettingsLoader.cpp">
       <Filter>Settings</Filter>
-    </ClCompile>
-    <ClCompile Include="Windows\ClientServerChooseWindow.cpp">
-      <Filter>Windows</Filter>
-    </ClCompile>
-    <ClCompile Include="Windows\ServerWindow.cpp">
-      <Filter>Windows</Filter>
-    </ClCompile>
-    <ClCompile Include="Windows\window.cpp">
-      <Filter>Windows</Filter>
-    </ClCompile>
-    <ClCompile Include="Windows\ServerPokerWindow.cpp">
-      <Filter>Windows</Filter>
     </ClCompile>
     <ClCompile Include="Network\Client.cpp">
       <Filter>Network\Cpp</Filter>
@@ -92,79 +77,73 @@
     <ClCompile Include="Network\Server.cpp">
       <Filter>Network\Cpp</Filter>
     </ClCompile>
-    <ClCompile Include="Windows\ClientWindow.cpp">
-      <Filter>Windows</Filter>
-    </ClCompile>
-    <ClCompile Include="Games\ClientSnake.cpp">
-      <Filter>Games</Filter>
-    </ClCompile>
-    <ClCompile Include="Windows\LobbySnakeWindow.cpp">
-      <Filter>Windows</Filter>
-    </ClCompile>
     <ClCompile Include="Games\ClientPoker.cpp">
-      <Filter>Games</Filter>
+      <Filter>Games\Cpp</Filter>
     </ClCompile>
     <ClCompile Include="Games\ClientPokerPlays.cpp">
-      <Filter>Games</Filter>
+      <Filter>Games\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Games\ClientSnake.cpp">
+      <Filter>Games\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Games\GameInfo.cpp">
+      <Filter>Games\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Games\RoundEndInfo.cpp">
+      <Filter>Games\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Games\ScoreCalculator.cpp">
+      <Filter>Games\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Games\ServerPoker.cpp">
+      <Filter>Games\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Games\ServerPokerPlayer.cpp">
+      <Filter>Games\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Cards\CardWithSprite.cpp">
+      <Filter>Cards\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Cards\ClientCard.cpp">
+      <Filter>Cards\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherComponents\SwitchingMenu.cpp">
+      <Filter>OtherComponents\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherComponents\TextOptions.cpp">
+      <Filter>OtherComponents\Cpp</Filter>
     </ClCompile>
     <ClCompile Include="Windows\ClientPokerWindow.cpp">
-      <Filter>Windows</Filter>
+      <Filter>Windows\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\ClientServerChooseWindow.cpp">
+      <Filter>Windows\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\ClientWindow.cpp">
+      <Filter>Windows\Cpp</Filter>
     </ClCompile>
     <ClCompile Include="Windows\GameEndWindow.cpp">
-      <Filter>Windows</Filter>
+      <Filter>Windows\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\LobbySnakeWindow.cpp">
+      <Filter>Windows\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\ServerPokerWindow.cpp">
+      <Filter>Windows\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\ServerWindow.cpp">
+      <Filter>Windows\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\window.cpp">
+      <Filter>Windows\Cpp</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Cards\Card.h">
-      <Filter>Cards</Filter>
-    </ClInclude>
-    <ClInclude Include="Cards\CardWithSprite.h">
-      <Filter>Cards</Filter>
-    </ClInclude>
-    <ClInclude Include="Cards\ClientCard.h">
-      <Filter>Cards</Filter>
-    </ClInclude>
-    <ClInclude Include="Games\ServerPokerPlayer.h">
-      <Filter>Games</Filter>
-    </ClInclude>
-    <ClInclude Include="Games\GameInfo.h">
-      <Filter>Games</Filter>
-    </ClInclude>
-    <ClInclude Include="Games\RoundEndInfo.h">
-      <Filter>Games</Filter>
-    </ClInclude>
-    <ClInclude Include="Games\ScoreCalculator.h">
-      <Filter>Games</Filter>
-    </ClInclude>
-    <ClInclude Include="Games\ServerPoker.h">
-      <Filter>Games</Filter>
-    </ClInclude>
-    <ClInclude Include="OtherComponents\PokerHand.h">
-      <Filter>OtherComponents</Filter>
-    </ClInclude>
-    <ClInclude Include="OtherComponents\SwitchingMenu.h">
-      <Filter>OtherComponents</Filter>
-    </ClInclude>
-    <ClInclude Include="OtherComponents\TextOptions.h">
-      <Filter>OtherComponents</Filter>
-    </ClInclude>
     <ClInclude Include="Settings\CardTexturesAndFontsContainer.h">
       <Filter>Settings</Filter>
     </ClInclude>
     <ClInclude Include="Settings\ClientServerSettingsLoader.h">
       <Filter>Settings</Filter>
-    </ClInclude>
-    <ClInclude Include="Windows\ClientServerChooseWindow.h">
-      <Filter>Windows</Filter>
-    </ClInclude>
-    <ClInclude Include="Windows\ServerPokerWindow.h">
-      <Filter>Windows</Filter>
-    </ClInclude>
-    <ClInclude Include="Windows\ServerWindow.h">
-      <Filter>Windows</Filter>
-    </ClInclude>
-    <ClInclude Include="Windows\Window.h">
-      <Filter>Windows</Filter>
     </ClInclude>
     <ClInclude Include="Network\Client.h">
       <Filter>Network\Includes</Filter>
@@ -178,29 +157,74 @@
     <ClInclude Include="Network\Server.h">
       <Filter>Network\Includes</Filter>
     </ClInclude>
-    <ClInclude Include="Windows\ClientWindow.h">
-      <Filter>Windows</Filter>
-    </ClInclude>
-    <ClInclude Include="Games\ClientSnake.h">
-      <Filter>Games</Filter>
-    </ClInclude>
-    <ClInclude Include="OtherComponents\TwoWayList.h">
-      <Filter>OtherComponents</Filter>
-    </ClInclude>
-    <ClInclude Include="Windows\LobbySnakeWindow.h">
-      <Filter>Windows</Filter>
-    </ClInclude>
     <ClInclude Include="Games\ClientPoker.h">
-      <Filter>Games</Filter>
+      <Filter>Games\Includes</Filter>
     </ClInclude>
     <ClInclude Include="Games\ClientPokerPlays.h">
-      <Filter>Games</Filter>
+      <Filter>Games\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Games\ClientSnake.h">
+      <Filter>Games\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Games\GameInfo.h">
+      <Filter>Games\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Games\RoundEndInfo.h">
+      <Filter>Games\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Games\ScoreCalculator.h">
+      <Filter>Games\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Games\ServerPoker.h">
+      <Filter>Games\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Games\ServerPokerPlayer.h">
+      <Filter>Games\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Cards\Card.h">
+      <Filter>Cards\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Cards\CardWithSprite.h">
+      <Filter>Cards\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Cards\ClientCard.h">
+      <Filter>Cards\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherComponents\PokerHand.h">
+      <Filter>OtherComponents\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherComponents\SwitchingMenu.h">
+      <Filter>OtherComponents\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherComponents\TextOptions.h">
+      <Filter>OtherComponents\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherComponents\TwoWayList.h">
+      <Filter>OtherComponents\Includes</Filter>
     </ClInclude>
     <ClInclude Include="Windows\ClientPokerWindow.h">
-      <Filter>Windows</Filter>
+      <Filter>Windows\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\ClientServerChooseWindow.h">
+      <Filter>Windows\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\ClientWindow.h">
+      <Filter>Windows\Includes</Filter>
     </ClInclude>
     <ClInclude Include="Windows\GameEndWindow.h">
-      <Filter>Windows</Filter>
+      <Filter>Windows\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LobbySnakeWindow.h">
+      <Filter>Windows\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\ServerPokerWindow.h">
+      <Filter>Windows\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\ServerWindow.h">
+      <Filter>Windows\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Window.h">
+      <Filter>Windows\Includes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
